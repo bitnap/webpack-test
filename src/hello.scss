@@ -1,0 +1,14 @@
+body {
+  background: #bbbbbb;
+
+  div {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid deepskyblue;
+
+    &.active {    /* div.active와 동일 */
+      font-size: 3rem;
+    }
+  }
+}
+
